@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/WP/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "반약탈서버",
+    "description": "반약탈서버 - 약탈을 즐겨보자!",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "반약탈서버",
+      "largeImageText": "약탈을 즐기는 중",
+      "largeImageKey": "main.png"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "37.1.1"
+  },
+  "untrackedFiles": []
+}

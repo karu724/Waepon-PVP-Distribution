@@ -1,0 +1,464 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "반약탈서버",
+    "smallImageText": "서버 접속 대기중",
+    "smallImageKey": "main.png"
+  },
+  "servers": [
+    {
+      "id": "Waepon-PVP-1.17.1",
+      "name": "반약탈서버",
+      "description": "반약탈서버 - 약탈을 즐겨보자!",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.17.1",
+      "discord": {
+        "shortId": "반약탈서버",
+        "largeImageText": "약탈을 즐기는 중",
+        "largeImageKey": "main.png"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:fmlcore:1.17.1-37.1.1",
+          "name": "Minecraft Forge (fmlcore)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 109566,
+            "MD5": "a905dc8b8194c19f064c455854bddba7",
+            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/fmlcore/1.17.1-37.1.1/fmlcore-1.17.1-37.1.1.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.17.1-37.1.1",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 17148,
+                "MD5": "b7079fa92e1260761b77cbebbd5f65c0",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/versions/1.17.1-forge-37.1.1/1.17.1-forge-37.1.1.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.17.1-37.1.1",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 16287,
+                "MD5": "da58bcac76681781571d0d23b1e9ab81",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/javafmllanguage/1.17.1-37.1.1/javafmllanguage-1.17.1-37.1.1.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.17.1-37.1.1",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 4980,
+                "MD5": "17edb519182d388e5abbad4dd646561f",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/mclanguage/1.17.1-37.1.1/mclanguage-1.17.1-37.1.1.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.17.1-37.1.1:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2338275,
+                "MD5": "4e203d37dc5c47f7d647b84743e54d1b",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.17.1-37.1.1:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4259465,
+                "MD5": "240c1cbfa163d15cc7a4351236385136",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.17.1-20210706.113038:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 15745893,
+                "MD5": "ff5bf8a2289f6c619baa5e843f00cd47",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraft/client/1.17.1-20210706.113038/client-1.17.1-20210706.113038-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.17.1-20210706.113038:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 10268370,
+                "MD5": "8c19993a3ff5945f585513c49a4151bd",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraft/client/1.17.1-20210706.113038/client-1.17.1-20210706.113038-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.17.1-20210706.113038:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 9278494,
+                "MD5": "83b5015d424a64d9911a0e520ae15840",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraft/client/1.17.1-20210706.113038/client-1.17.1-20210706.113038-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:0.9.54",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 79913,
+                "MD5": "1ccebb7dcbf30057243433755e48697f",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/cpw/mods/securejarhandler/0.9.54/securejarhandler-0.9.54.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.10",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 21869,
+                "MD5": "b4b4b87397040701bd74ad6cbb784954",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/forgespi/4.0.10/forgespi-4.0.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.0.7",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 127169,
+                "MD5": "81c9715e3ad065953b03eca050aae89c",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/cpw/mods/modlauncher/9.0.7/modlauncher-9.0.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.8.1",
+              "name": "Minecraft Forge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 501879,
+                "MD5": "540b1256d887a6993ecbef23371a3302",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:21.0",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 2521113,
+                "MD5": "ddc91fd850fa6177c91aab5d4e4d1fa6",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/com/google/guava/guava/21.0/guava-21.0.jar"
+              }
+            },
+            {
+              "id": "com.google.code.gson:gson:2.8.0",
+              "name": "Minecraft Forge (gson)",
+              "type": "Library",
+              "artifact": {
+                "size": 231952,
+                "MD5": "a42f1f5bfa4e6f123ddcab3de7e0ff81",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:0.1.17",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7542,
+                "MD5": "8da451508e79cc600637f7bdd68610af",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/cpw/mods/bootstraplauncher/0.1.17/bootstraplauncher-0.1.17.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.17.1-37.1.1",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 235478,
+                "MD5": "3da7d368acd99ca0e92e7ad60abae857",
+                "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/fmlloader/1.17.1-37.1.1/fmlloader-1.17.1-37.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "creo.mod:koreanchat:1.17.1-2.0@jar",
+          "name": "Korean Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56962,
+            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Waepon-PVP-1.17.1/forgemods/optionalon/koreanchat-creo-1.17.1-2.0.jar",
+            "MD5": "dce464f1f5f289a0f708c6fc7fb2c27b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.17.1_HD_U_H1@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6344306,
+            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Waepon-PVP-1.17.1/forgemods/optionalon/OptiFine_1.17.1_HD_U_H1.jar",
+            "MD5": "ce4d0bc85481fc8e8ba10ab0106c9a5f"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
