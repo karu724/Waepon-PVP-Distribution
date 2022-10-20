@@ -2,23 +2,23 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "반약탈서버",
-    "smallImageText": "서버 접속 대기중",
-    "smallImageKey": "main.png"
+    "clientId": "1032649032239161364",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "Waepon-PVP-1.17.1",
-      "name": "반약탈서버",
-      "description": "반약탈서버 - 약탈을 즐겨보자!",
+      "id": "Plunderage-Server-1.17.1",
+      "name": "Plunderage Server",
+      "description": "반약탈서버",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "weaponizationpvp.kro.kr:25565",
       "minecraftVersion": "1.17.1",
       "discord": {
         "shortId": "반약탈서버",
-        "largeImageText": "약탈을 즐기는 중",
-        "largeImageKey": "main.png"
+        "largeImageText": "icon",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
       "autoconnect": true,
@@ -82,7 +82,7 @@
               "type": "Library",
               "artifact": {
                 "size": 4259465,
-                "MD5": "240c1cbfa163d15cc7a4351236385136",
+                "MD5": "6078cfc43caa23c6dc6d7bfb0bae9888",
                 "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-client.jar"
               },
               "subModules": []
@@ -93,7 +93,7 @@
               "type": "Library",
               "artifact": {
                 "size": 15745893,
-                "MD5": "ff5bf8a2289f6c619baa5e843f00cd47",
+                "MD5": "a73141b0e5cfc2f022b013e4070e0622",
                 "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/repo/lib/net/minecraft/client/1.17.1-20210706.113038/client-1.17.1-20210706.113038-srg.jar"
               },
               "subModules": []
@@ -438,7 +438,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 56962,
-            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Waepon-PVP-1.17.1/forgemods/optionalon/koreanchat-creo-1.17.1-2.0.jar",
+            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Plunderage-Server-1.17.1/forgemods/optionalon/koreanchat-creo-1.17.1-2.0.jar",
             "MD5": "dce464f1f5f289a0f708c6fc7fb2c27b"
           },
           "required": {
@@ -446,16 +446,13 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.17.1_HD_U_H1@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
+          "id": "generated.library:OptiFine_1.17.1_HD_U_H1:0.0.0@jar",
+          "name": "OptiFine_1.17.1_HD_U_H1",
+          "type": "Library",
           "artifact": {
             "size": 6344306,
-            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Waepon-PVP-1.17.1/forgemods/optionalon/OptiFine_1.17.1_HD_U_H1.jar",
+            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Plunderage-Server-1.17.1/libraries/OptiFine_1.17.1_HD_U_H1.jar",
             "MD5": "ce4d0bc85481fc8e8ba10ab0106c9a5f"
-          },
-          "required": {
-            "value": false
           }
         }
       ]

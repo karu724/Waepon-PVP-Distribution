@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///D:/WPP/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Plunderage Server",
+    "description": "반약탈서버",
+    "address": "weaponizationpvp.kro.kr:25565",
+    "discord": {
+      "shortId": "반약탈서버",
+      "largeImageText": "icon",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "37.1.1"
+  },
+  "untrackedFiles": []
+}
