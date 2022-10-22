@@ -13,7 +13,7 @@
       "description": "반약탈서버",
       "icon": null,
       "version": "1.0.0",
-      "address": "weaponizationpvp.kro.kr:25565",
+      "address": "plunderage.mcv.kr:25565",
       "minecraftVersion": "1.17.1",
       "discord": {
         "shortId": "반약탈서버",
