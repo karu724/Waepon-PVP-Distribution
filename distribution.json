@@ -444,16 +444,6 @@
           "required": {
             "value": false
           }
-        },
-        {
-          "id": "generated.library:OptiFine_1.17.1_HD_U_H1:0.0.0@jar",
-          "name": "OptiFine_1.17.1_HD_U_H1",
-          "type": "Library",
-          "artifact": {
-            "size": 6344306,
-            "url": "https://raw.githubusercontent.com/karu724/WaeponPVP-Distribution/main/servers/Plunderage-Server-1.17.1/libraries/OptiFine_1.17.1_HD_U_H1.jar",
-            "MD5": "ce4d0bc85481fc8e8ba10ab0106c9a5f"
-          }
         }
       ]
     }
